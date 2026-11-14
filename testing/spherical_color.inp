@@ -1,0 +1,33 @@
+output spherical.pdb
+tolerance 2.0
+structure palmitoil.pdb
+  resnumbers 2
+  number 90
+  atoms 37
+    inside sphere 0. 0. 0. 14.  # color #ff0004
+  end atoms
+  atoms 5
+    outside sphere 0. 0. 0. 26.  # color #bc0003
+  end atoms
+end structure
+structure palmitoil.pdb
+  resnumbers 2
+  number 300
+  atoms 5
+    inside sphere 0. 0. 0. 29.  # color #ff5500
+  end atoms
+  atoms 37
+    outside sphere 0. 0. 0. 41.  # color #c34100
+  end atoms
+end structure
+structure water.pdb
+  resnumbers 2
+  number 308
+  inside sphere 0. 0. 0. 13.  # color #00007f
+end structure
+structure water.pdb
+  resnumbers 2
+  number 17536
+  inside box -47.5 -47.5 -47.5 47.5 47.5 47.5  # color #00ffff
+  outside sphere 0. 0. 0. 43.  # color #0000c7
+end structure

@@ -1,0 +1,10 @@
+# Local only, not published
+legacy/
+resume.cmd
+CLAUDE.md
+docs/TESTING-0.50.md
+docs/CHANGES-0.50.md
+
+# Python
+__pycache__/
+*.pyc
