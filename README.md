@@ -74,13 +74,7 @@ testing/            example inputs and structures
 
 ## Development
 
-There is no build system or automated test suite. To check the syntax of all files:
-
-```powershell
-Get-ChildItem -Recurse -Filter *.py | % { python -m py_compile $_.FullName }
-```
-
-Real testing happens inside PyMOL. Restart PyMOL after each code change: reopening the plugin
+There is no build system or automated test suite. Real testing happens inside PyMOL. Restart PyMOL after each code change: reopening the plugin
 window does not reload the modules.
 
 ## Author
